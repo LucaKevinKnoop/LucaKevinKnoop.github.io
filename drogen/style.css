@@ -1,0 +1,367 @@
+@font-face { font-family: "Thunder"; src: url("fonts/THUNDER/Fonts/OpenType-PS/Thunder-BlackLC.otf"); }
+
+@-moz-document url-prefix() {
+  html, body, div {scrollbar-width: none;}
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* damit keine Bilder einfach rauskopiert werden können: */
+img {
+  pointer-events: none;
+}
+
+/* MENU-BUTTON */
+div.menu-button {
+  position: fixed;
+  z-index: 2;
+  width: 50px;
+  height: 50px;
+  background-color: #ffbb33;
+  border-radius: 50%;
+}
+
+div.menu-button:hover {
+  background-color: #ff8333;
+}
+/* MENU-BUTTON */
+
+/* MENU */
+/* Schrift */
+h1.menu-chapter {
+  text-decoration: underline;
+  text-transform: uppercase;
+  font-size: 5rem;
+}
+
+h1.menu-title {
+  /* transform: rotate(-90deg); */
+  /* transform-origin: 0 0; */
+  white-space: nowrap;
+  font-size: 5rem;
+  padding-top: 30px;
+}
+
+h2.menu-sub {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+/* h3 {
+  font-family: 'Domine', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 28px;
+} */
+
+p.menu-descr {
+  font-family: 'Domine', sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  padding-bottom: 50px;
+  padding-top: 10px;
+}
+/* Schrift */
+
+/* Menu */
+section.menu-wrapper {
+  position: fixed;
+  display: none;
+  z-index: 1;
+}
+
+section.menu {
+  display: flex;
+  align-content: center;
+  width: 100vw;
+}
+
+div.menublock {
+  overflow: hidden;
+}
+
+div.menublock:hover {
+  overflow: visible;
+}
+
+div.menu-content {
+  min-width: 16.7vw;
+  max-width: 50vw;
+  height: 100vh;
+
+  background-color: #ae7aff;
+  border: solid #000 2px;
+
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start; */
+
+  display: grid;
+  grid-template-columns: 1fr 1.5fr 2fr;
+  grid-template-rows: 1fr 3fr;
+  grid-template-areas:
+  "chapter title"
+  "chapter image"
+  "chapter content"
+}
+div.menu-content:hover .menu-chapter{
+  color: white;
+}
+
+div.menu-chapter {
+  width: 16.7vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+
+  grid-area: chapter;
+}
+
+div.menu-title {
+  width: 16.7vw;
+  display: flex;
+  /* justify-content: center; */
+  text-align: center;
+
+  grid-area: title;
+}
+
+div.menu-description {
+  width: 24vw;
+  grid-area: content;
+
+  padding-right: 10px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+div.menu-image {
+  width: 24vw;
+  /* height: 24vh; */
+  padding-right: 10px;
+  grid-area: image;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+div.menu-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/* MENU */
+
+
+/* DROGENPROJEKT */
+/* SCHRIFTEN */
+h1 {
+  font-family: 'Thunder';
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+h1.drogen-headline1 {
+  /* font-size: clamp(1.5rem, 8vw - 2rem, 3rem); */
+  font-size: 30vw;
+  color: #fff;
+
+  position: absolute;
+  left: 4vw;
+}
+h1.drogen-headline1::selection {
+  background: #000;
+  color: #fff;
+}
+
+h1.drogen-headline2 {
+  font-size: 15vw;
+  text-align: right;
+  line-height: 0.95;
+
+  position: absolute;
+  right: 4vw;
+  top: 17vw;
+}
+h1.drogen-headline2::selection {
+  background: #000;
+  color: #fff;
+}
+
+h2 {
+  font-family: 'Inter';
+  font-size: 20px;
+}
+
+h2.drogen-subhead {
+  color: #fff;
+  line-height: 1.2;
+
+  position: absolute;
+  width: clamp(400px, 35vw, 800px);
+  left: 25vw;
+  top: 62vw;
+}
+
+h2.drogen-subhead::selection {
+  background: #000;
+  color: #fff;
+}
+
+h2.drogen-info {
+  line-height: 1.2;
+  position: absolute;
+}
+
+h2.drogen-info::selection {
+  background: #F2D985;
+  color: #000;
+}
+
+h2.drogen-info1 {
+  bottom: 100px;
+  right: 200px;
+  width: 290px;
+}
+
+h2.drogen-info2 {
+  color: #fff;
+  bottom: 100px;
+  left: 200px;
+  width: 330px;
+}
+
+h2.drogen-info3 {
+  color: #fff;
+  top: 100px;
+  left: 200px;
+  width: 360px;
+}
+
+h2.drogen-sido {
+  position: absolute;
+  width: 200px;
+  top: 30%;
+  left: 140%;
+}
+
+h2.drogen-ende {
+  line-height: 1.5;
+  margin-top: 150px;
+}
+
+section.drogen-content p {
+  font-family: Domine;
+  font-size: 20px;
+  line-height: 1.5;
+
+  width: 670px;
+}
+
+section.drogen-content p::selection {
+  background: #000;
+  color: #fff;
+}
+
+p.drogen {
+  padding-top: 70px;
+}
+
+p.drogen-moritz {
+  padding-right: 70px;
+}
+
+p.drogen-tim {
+  padding-left: 70px;
+}
+
+p.drogen-intro {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+/* SCHRIFTEN */
+
+/* AUFBAU */
+section.drogen-body {
+  /* background-color: #ECC074; */
+  background-color: #F2D985;
+}
+
+section.drogen-image {
+  position: relative;
+  width: 100vw;
+  /* height: 110vh; */
+  overflow: hidden;
+}
+
+/* PARALLAX */
+section.drogen-image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+  width: 100vw;
+}
+
+div.drogen-image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: inherit;
+  perspective: 8px;
+  perspective-origin: 0%;
+  display: flex;
+}
+
+div.drogen-image-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform: translateZ(0px);
+}
+
+div.drogen-image-foreground {
+  margin-top: auto;
+  margin-bottom: 50px;
+  transform-origin: 0;
+  transform: translateZ(3px) scale(0.625);
+}
+
+div.drogen-image-foreground h2 {
+  color: #fff;
+  width: 300px;
+  margin: auto;
+  width: 100vw;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+/* PARALLAX */
+
+section.drogen-image img {
+  max-width: 100%;
+}
+
+section.drogen-content {
+  position: relative;
+  /* background-color: yellow; */
+  width: 670px;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+/* DROGENPROJEKT */
