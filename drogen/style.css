@@ -176,6 +176,7 @@ section.drogen-body {
   /* background-color: #ECC074; */
   background-color: #F2D985;
   background-image: linear-gradient(#F2D985, orange);
+  z-index: -1;
 }
 
 /* SCHRIFTEN basics*/
