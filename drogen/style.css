@@ -176,7 +176,6 @@ section.drogen-body {
   /* background-color: #ECC074; */
   background-color: #F2D985;
   background-image: linear-gradient(#F2D985, orange);
-  z-index: -1;
 }
 
 /* SCHRIFTEN basics*/
@@ -193,14 +192,23 @@ h2 {
 /* SCHRIFTEN basics */
 
 /* HEADING */
-h1.drogen-headline1 {
+h1.drogen-headline4 {
   /* font-size: clamp(1.5rem, 8vw - 2rem, 3rem); */
-  font-size: 25vw;
-  color: #fff;
+  font-size: 22vw;
+  color: #000;
 
   position: absolute;
-  left: 4vw;
-  top: -6vh;
+  left: 6.2vw;
+  top: 0.3vw;
+}
+
+h1.drogen-headline1 {
+  /* font-size: clamp(1.5rem, 8vw - 2rem, 3rem); */
+  font-size: 22vw;
+  /* color: #fff; */
+
+  position: absolute;
+  left: 6vw;
 }
 h1.drogen-headline1::selection {
   background: #000;
@@ -208,17 +216,29 @@ h1.drogen-headline1::selection {
 }
 
 h1.drogen-headline2 {
-  font-size: 14vw;
+  font-size: 12vw;
+  color: #000;
   text-align: right;
   line-height: 0.95;
 
   position: absolute;
-  right: 4vw;
-  top: 10vw;
+  right: 6vw;
+  top: 26vw;
 }
 h1.drogen-headline2::selection {
   background: #000;
   color: #fff;
+}
+
+h1.drogen-headline3 {
+  font-size: 12vw;
+  color: #fff;
+  text-align: right;
+  line-height: 0.95;
+
+  position: absolute;
+  right: 5.9vw;
+  top: 26.2vw;
 }
 /* HEADING */
 
@@ -312,13 +332,13 @@ h2.drogen-info1 {
 }
 
 h2.drogen-info2 {
-  bottom: 25%;
+  bottom: 75%;
   left: 15%;
   width: 330px;
 }
 
 h2.drogen-info3 {
-  top: 60%;
+  top: 20%;
   left: 15%;
   width: 360px;
 }
