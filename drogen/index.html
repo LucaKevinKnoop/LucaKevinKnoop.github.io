@@ -131,15 +131,17 @@
 <!-- DROGENSECTION -->
     <section class="drogen-body">
 
-      <section class="drogen-heading drogen-image">
-        <h1 class="drogen-headline1">DROGEN</h1>
-        <h1 class="drogen-headline2">sind für uns wie ein Ausflug in den Freizeitpark</h1>
-        <h2 class="drogen-subhead">Montag, 15.11.2021.<br>Tim und Moritz sitzen in ihrer gemeinsamen Wohnung, als sie mir die Story hinter ihren Freizeitausflügen erzählen. Sie kommen aus einem guten Elternhaus, hatten eine "normale" Vorstadtkinderkindheit, besuchten mehr oder weniger erfolgreich das Gymnasium und studieren nun beide in Hannover.</h2>
+      <div class="drogen-abstand"></div>
+
+      <section class="drogen-image">
+        <h1 class="drogen-headline1 rellax" data-rellax-speed="-4" >DROGEN</h1>
+        <h1 class="drogen-headline2 rellax" data-rellax-speed="-6">sind für uns wie ein Ausflug in den Freizeitpark</h1>
         <img src="images/blue.jpg" alt="">
       </section>
 
       <section class="drogen-content">
-        <p class="drogen-moritz drogen-intro">Moritz</p>
+        <h2 class="drogen-subhead">Montag, 15.11.2021.<br>Tim und Moritz sitzen in ihrer gemeinsamen Wohnung, als sie mir die Story hinter ihren Freizeitparkausflügen erzählen. Sie kommen aus einem guten Elternhaus, hatten eine "normale" Vorstadtkinderkindheit und besuchten so mehr oder weniger erfolgreich das Gymnasium. Derzeit studieren sie beide in Hannover. <i>Protokoll von Jannes Ulbrich</i></h2>
+        <p class="drogen-moritz drogen-intro drogen">Moritz</p>
         <p class="drogen-moritz">Mit 14 habe ich das erste Mal Alkohol getrunken und dachte mir nur "whoaa, DAS ist möglich??" Schon vorher hatte ich mich aus Neugier in das Thema eingelesen, aber das Erlebnis überstieg für mich die Grenze des Vorstellbaren. Wie beschreibt man einer Person die Wirkung von Alkohol, die noch nie welchen getrunken hat? Meine Faszination war geweckt und ich wollte die Wirkung anderer Stoffe erleben.</p>
         <p class="drogen-moritz drogen">Beeinflusst von der Musik und Kulturindustrie, haben wir mit 15 Jahren das erste Mal Gras geraucht. Cannabis dürfte die am weitesten verbreitetste illegale Droge sein und gilt generell auch als harmloseste. Für mich war die treibende Kraft hinter der Kifferei die Neugier. Was passiert mit meinem Körper? Wie fühle ich mich dabei? Wie verändert sich meine Wahrnehmung? Nach mehrmaligem Kiffen und Alkoholkonsum stieg mein Interesse weiter und ich nahm mir vor, mal in alles Mögliche reinzuschnuppern. Ich wollte wissen, wie die unterschiedlichen Drogen wirken, wie ich und mein Körper darauf reagieren.</p>
         <p class="drogen-tim drogen-intro drogen">Tim</p>
@@ -149,20 +151,9 @@
         <p class="drogen-moritz drogen">Nee! Beim ersten Mal war ich glaub ich wirklich vorsichtig.</p>
       </section>
 
-      <!-- <section class="drogen-image">
+      <section class="drogen-image drogen-parallax">
         <h2 class="drogen-info drogen-info1">Drogen mit aufputschender, Müdigkeit vertreibender Wirkung, werden in der Drogenszene als "Upper" bezeichnet. Darunter fallen unter anderem Koffein, Nikotin, Kokain und Ecstasy.</h2>
-        <img src="images/bridge.jpg" alt="">
-      </section> -->
-
-      <section class="drogen-image-wrapper">
-        <div class="drogen-image-container">
-          <div class="drogen-image-background">
-            <img src="images/bridge.jpg" alt="">
-          </div>
-          <div class="drogen-image-foreground">
-            <h2 class="">Drogen mit aufputschender, Müdigkeit vertreibender Wirkung, werden in der Drogenszene als "Upper" bezeichnet. Darunter fallen unter anderem Koffein, Nikotin, Kokain und Ecstasy.</h2>
-          </div>
-        </div>
+        <img class="rellax" data-rellax-speed="-6" data-rellax-percentage="0.5" src="images/bridge.jpg" alt="">
       </section>
 
       <section class="drogen-content">
@@ -177,9 +168,9 @@
         <p class="drogen-tim drogen">Also wir waren jetzt nicht im Park und uns hat jemand angequatscht. Sowas kaufen wir nicht, das wäre dumm.</p>
       </section>
 
-      <section class="drogen-image">
+      <section class="drogen-image drogen-parallax">
         <h2 class="drogen-info drogen-info2">Haben Drogen eine beruhigende, müde machende, entspannende oder angstlösende Wirkung, werden diese als "Downer" bezeichnet. Dazu zählen Drogen wie Cannabis, Heroin und verschiedene Opiate.</h2>
-        <img src="images/moritz.jpg" alt="">
+        <img class="rellax" data-rellax-speed="-6" data-rellax-percentage="0.5" src="images/moritz.jpg" alt="">
       </section>
 
       <section class="drogen-content">
@@ -197,9 +188,9 @@
         <p class="drogen-tim drogen">Und dir wird das Gras weggenommen, das ist bei der Sache eigentlich viel nerviger.</p>
       </section>
 
-      <section class="drogen-image">
+      <section class="drogen-image drogen-parallax">
         <h2 class="drogen-info drogen-info3">Upper und Downer werden häufig im Mischkonsum eingesetzt. Downer können den negativen Wirkungen der Upper entgegenwirken.<br>Da Downer meist Körperfunktionen unterdrücken, kann der Konsum folgenschwere, körperliche Schäden mit sich bringen. Das physische Abhängigkeitspotential von Downer wird als hoch eingestuft.</h2>
-        <img src="images/bath.jpg" alt="">
+        <img class="rellax" data-rellax-speed="-6" data-rellax-percentage="0.5" src="images/bathbig.jpg" alt="">
       </section>
 
       <section class="drogen-content">
@@ -214,9 +205,15 @@
     </section>
 <!-- DROGENSECTION -->
 
+<script src="scripts/rellax.js"></script>
+<script>
+// Accepts any class name
+var rellax = new Rellax('.rellax');
+</script>
+
+
   </body>
 
   <script src="scripts/menu.js" charset="utf-8"></script>
-
 
   </html>
