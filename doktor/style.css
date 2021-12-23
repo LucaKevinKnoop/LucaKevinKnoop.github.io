@@ -1,0 +1,283 @@
+@font-face { font-family: "Thunder"; src: url("fonts/THUNDER/Fonts/OpenType-PS/Thunder-BoldLC.otf"); }
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Thunder';
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+p {
+  font-family: 'Domine';
+  font-size: 20px;
+  line-height: 1.55;
+}
+
+p.doktor-light {
+  right: 50px;
+  width: 40%;
+  height: auto;
+}
+
+p.doktor-bold {
+  left: 50px;
+  width: 40%;
+  height: auto;
+}
+
+/* Startscreen */
+
+.doktor-startscreen {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: #8471C4;
+}
+
+h1.doktor-h1-start {
+  font-size: 10em;
+}
+
+/* Background Image */
+
+.doktor-background0 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.doktor-background0 img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+
+}
+
+h2.doktor-h2-start2 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.doktor-background0 .doktor-fußstapfen1 {
+  position: absolute;
+  width: 20%;
+  height: auto;
+  top: 600px;
+  right: 30%;
+}
+
+.doktor-background0 .doktor-fußstapfen2 {
+  position: absolute;
+  width: 20%;
+  height: auto;
+  top: 450px;
+  right: 35%;
+}
+
+.doktor-background0 .doktor-fußstapfen3 {
+  position: absolute;
+  width: 20%;
+  height: auto;
+  top: 300px;
+  right: 40%;
+}
+
+/* Erster Textblock */
+
+.doktor-text {
+  width: 100%;
+  height: 500px;
+}
+
+/* Zweiter Textblock */
+
+.doktor-text2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #8471C4;
+}
+
+.doktor-text2 img {
+  position: absolute;
+  width: 30%;
+  right: 20%;
+}
+
+/* Background Image 2 */
+
+.doktor-background {
+  position: relative;
+  width: 100%;
+  height: auto
+}
+
+.doktor-background img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+
+}
+
+/* Background Image 2 Ende */
+
+.doktor-background2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.doktor-background2 img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+/* Textblock 4 */
+
+.doktor-text4 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #8471C4;
+}
+
+.doktor-text4 img {
+  position: absolute;
+  width: 30%;
+  right: 20%;
+}
+
+/* Background Image 3*/
+
+.doktor-background3 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.doktor-background3 img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+/* Background Image 3 Ende */
+
+/* Textblock 5 */
+
+.doktor-text5 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #8471C4;
+}
+
+.doktor-text5 img {
+  position: absolute;
+  width: 30%;
+  right: 20%;
+}
+
+/* Background Image 4 */
+
+.doktor-background4 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.doktor-background4 img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+/* Background Image 4 Ende */
+
+
+/* Textblock 6 */
+
+.doktor-text6 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.doktor-text6 img.doktor-herzoutline {
+  position: absolute;
+  width: 30%;
+  right: 18%;
+}
+
+.doktor-text6 img.doktor-herzgefüllt {
+  position: absolute;
+  width: 30%;
+  right: 20%;
+}
+
+/* Textblock 6 Ende */
+
+/* Background Image 5*/
+
+.doktor-background5 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.doktor-background5 img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+/* Background Image 5 Ende */
+
+
+/* Textblock 5 */
+
+.doktor-text7 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: #8471C4;
+}
+
+.doktor-text7 img {
+  position: absolute;
+  width: 30%;
+  right: 20%;
+}
+
+/* Textblock 5 Ende */
+
+
+/* Background Image 6 Ende */
+
+.doktor-background6 {
+  width: 100%;
+  height: auto;
+}
+
+.doktor-background6 img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+.doktor-leben h1 {
+  position: absolute;
+  font-size: 100px;
+}
