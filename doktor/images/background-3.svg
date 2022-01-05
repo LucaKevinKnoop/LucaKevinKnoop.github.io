@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1280 720" style="enable-background:new 0 0 1280 720;" xml:space="preserve">
+<style type="text/css">
+	.st0{display:none;}
+	.st1{display:inline;fill:#FFFFFF;stroke:#1A171B;stroke-miterlimit:10;}
+	.st2{display:inline;fill:#8471C4;}
+	.st3{display:inline;fill:#8471C4;stroke:#1A171B;stroke-width:3;stroke-miterlimit:10;}
+	.st4{display:inline;fill:none;stroke:#FFFFFF;stroke-width:3;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st5{fill:#8471C4;}
+	.st6{display:inline;}
+</style>
+<g id="Referenz" class="st0">
+	<image style="overflow:visible;opacity:0.7;" width="1280" height="720" xlink:href="background-1.png" >
+	</image>
+	<image style="overflow:visible;" width="1280" height="720" xlink:href="background-2.png" >
+	</image>
+	<image style="overflow:visible;" width="1280" height="720" xlink:href="background-3.png" >
+	</image>
+	<image style="overflow:visible;" width="1280" height="720" xlink:href="background-4.png" >
+	</image>
+	<image style="overflow:visible;" width="1280" height="360" xlink:href="background-5.png" >
+	</image>
+	<image style="overflow:visible;" width="1280" height="720" xlink:href="background-6.png" >
+	</image>
+	<image style="display:inline;overflow:visible;" width="1280" height="720" xlink:href="background-7.png" >
+	</image>
+</g>
+<g id="Ebene_2" class="st0">
+	<path class="st1" d="M135.2-79.9"/>
+	<polygon class="st2" points="-8.8,-7.9 1283.4,702.6 1283.4,-15.9 	"/>
+	<line class="st3" x1="1283.4" y1="723.7" x2="-8.8" y2="15.2"/>
+</g>
+<g id="Ebene_3" class="st0">
+	<polygon class="st2" points="-6.1,360 479.8,360 523.1,268 559.2,605.7 640,96.7 704.4,501.4 747.1,360 1282.8,360 1282.8,-8.3 
+		-6.1,-8.3 	"/>
+	<polyline class="st4" points="-5.7,347.2 468.1,347.2 531.7,229.9 561.4,489.4 640,30.8 710.3,422.8 738.8,343.7 1283.2,343.7 	"/>
+</g>
+<g id="Ebene_4">
+	<polygon class="st5" points="-4.3,362.3 1282.1,0 1282.1,314.2 -2,670.6 	"/>
+	<polygon class="st5" points="-0.9,720.6 1289,360 1289,729 0,729 	"/>
+</g>
+<g id="Ebene_5" class="st0">
+	<polygon class="st2" points="-4.9,480.7 1286.3,109.7 1286.3,-5.2 -4.9,-5.2 	"/>
+	<path class="st2" d="M-4.9,554.2V726h1291.3V184.7L-4.9,554.2z M28.4,664l-18-63.2l63.2-18l18,63.2L28.4,664z M119,638.2L101,575
+		l63.2-18l18,63.2L119,638.2z M209.7,612.3l-18-63.2l63.2-18l18,63.2L209.7,612.3z M300.3,586.5l-18-63.2l63.2-18l18,63.2
+		L300.3,586.5z M390.9,560.6l-18-63.2l63.2-18l18,63.2L390.9,560.6z M481.5,534.8l-18-63.2l63.2-18l18,63.2L481.5,534.8z
+		 M572.1,508.9l-18-63.2l63.2-18l18,63.2L572.1,508.9z M662.7,483.1l-18-63.2l63.2-18l18,63.2L662.7,483.1z M753.3,457.2l-18-63.2
+		l63.2-18l18,63.2L753.3,457.2z M843.9,431.4l-18-63.2l63.2-18l18,63.2L843.9,431.4z M934.6,405.5l-18-63.2l63.2-18l18,63.2
+		L934.6,405.5z M1025.2,379.7l-18-63.2l63.2-18l18,63.2L1025.2,379.7z M1115.8,353.8l-18-63.2l63.2-18l18,63.2L1115.8,353.8z
+		 M1206.4,328l-18-63.2l63.2-18l18,63.2L1206.4,328z"/>
+</g>
+<g id="Ebene_6" class="st0">
+	<path class="st2" d="M231.5,0c189.4,0,350.4,122.1,408.4,291.9C697.8,122.1,858.8,0,1048.2,0c91.9,0,177,28.7,247,77.7v-97.1H-22.1
+		V82.3C49.1,30.6,136.7,0,231.5,0z"/>
+</g>
+<g id="Ebene_7" class="st0">
+	<path class="st2" d="M675.7,604.6h-0.1c-8.7,9.8-21.5,16-35.6,16s-26.9-6.2-35.6-16h0L1.7,0H0v720h1280V0h-0.7L675.7,604.6z"/>
+</g>
+<g id="Ebene_8" class="st0">
+	<rect class="st6" width="1280" height="720"/>
+	<polygon class="st2" points="-6.6,-3.9 1289.9,726.3 1289.9,-17.7 	"/>
+</g>
+</svg>
