@@ -1,0 +1,560 @@
+@font-face { font-family: "Thunder"; src: url("fonts/THUNDER/Fonts/OpenType-PS/Thunder-BoldLC.otf"); }
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Thunder';
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: 'Thunder';
+  font-weight: 100;
+}
+
+p {
+  font-family: 'Domine';
+  font-size: 20px;
+  line-height: 1.55;
+}
+
+/* Startscreen */
+
+.doktor-startscreen {
+  position: relative;
+  height: auto;
+  width: 100%;
+  background: #8471C4;
+}
+
+.doktor-h1-start {
+  font-size: 12rem;
+  color: #8471C4;
+  font-family: 'Thunder';
+  line-height: 1;
+  padding: 50px 0 0 50px;
+  text-transform: uppercase;
+}
+
+.doktor-h1-start2 {
+  font-size: 8rem;
+  color: #000;
+  font-family: 'Thunder';
+  line-height: 1;
+  padding: 50px 50px 0 0px;
+}
+
+/* Background Image */
+
+.doktor-background0 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.doktor-background0 img {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+
+}
+
+h2.doktor-h2-start3 {
+  position: absolute;
+  top: 150px;
+  right: 0;
+  padding-right: 200px;
+  font-size: 8rem;
+  color: #8471C4;
+}
+
+.doktor-background0 .doktor-fußstapfen1 {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  bottom: 0px;
+  left: 30%;
+  transform: rotate(-25deg);
+}
+
+.doktor-background0 .doktor-fußstapfen2 {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  bottom: 150px;
+  left: 20%;
+  transform: rotate(-50deg);
+}
+
+.doktor-background0 .doktor-fußstapfen3 {
+  position: absolute;
+  width: 300px;
+  height: auto;
+  bottom: 250px;
+  left: 10%;
+  transform: rotate(-60deg);
+}
+
+/* Erster Textblock */
+
+.doktor-text {
+  width: 100%;
+  height: auto;
+  padding: 200px 0 100px 0;
+}
+
+.doktor-light1 {
+  height: auto;
+  width: 40%;
+  margin: auto;
+
+}
+
+.doktor-bold1 {
+  height: auto;
+  width: 40%;
+  font-weight: bold;
+  margin: auto;
+  padding-top: 50px;
+
+}
+
+.doktor-light2 {
+  right: 0;
+  width: 40%;
+  margin: auto;
+  padding-top: 50px;
+
+}
+
+.doktor-bold2 {
+  height: auto;
+  width: 40%;
+  font-weight: bold;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.doktor-light3 {
+  right: 0;
+  width: 40%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+/* Zweiter Textblock */
+
+.doktor-text2 {
+  width: 100%;
+  height: auto;
+  padding: 100px 0 100px 0;
+  background: #8471C4;
+}
+
+.doktor-bold3 {
+  height: auto;
+  width: 40%;
+  font-weight: bold;
+  margin: auto;
+}
+
+.doktor-light4 {
+  right: 0;
+  width: 40%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.doktor-bold4 {
+  height: auto;
+  width: 40%;
+  font-weight: bold;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.doktor-light5 {
+  right: 0;
+  width: 40%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.doktor-text2 img {
+  position: absolute;
+  width: 200px;
+  left: 10%;
+}
+
+
+
+/* Background Image 2 */
+
+.doktor-background2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0;
+}
+
+.doktor-background2 img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+/* Background Image 2 Ende */
+
+
+.doktor-text3 {
+  width: 100%;
+  height: auto;
+  padding: 100px 0 100px 0;
+}
+
+.doktor-reanimation {
+  position: absolute;
+  right: 15%;
+}
+
+.doktor-bold5 {
+  height: auto;
+  width: 40%;
+  font-weight: bold;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.doktor-light6 {
+  right: 0;
+  width: 40%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.doktor-bold6 {
+  height: auto;
+  width: 40%;
+  font-weight: bold;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.doktor-light7 {
+  right: 0;
+  width: 40%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+/* Textblock 4 */
+
+.doktor-text4 {
+  width: 100%;
+  height: auto;
+  padding: 100px 0 100px 0;
+  background: #8471C4;
+  margin-top: -5px;
+}
+
+.doktor-zukunft {
+  position: absolute;
+  right: 15%;
+}
+
+.doktor-bold7 {
+  height: auto;
+  width: 40%;
+  font-weight: bold;
+  margin: auto;
+}
+
+.doktor-light8 {
+  right: 0;
+  width: 40%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.doktor-kleeblatt-wrapper {
+  position: relative;
+  height: 400px;
+}
+
+.doktor-text4 #kleeblatt1 {
+  position: absolute;
+  height: auto;
+  width: 10%;
+  left: 10%;
+  opacity: 0;
+}
+
+.doktor-text4 #kleeblatt2 {
+  position: absolute;
+  height: auto;
+  width: 10%;
+  left: 30%;
+  opacity: 0;
+}
+
+.doktor-text4 #kleeblatt3 {
+  position: absolute;
+  height: auto;
+  width: 10%;
+  left: 45%;
+  opacity: 0;
+}
+
+.doktor-text4 #kleeblatt4 {
+  position: absolute;
+  height: auto;
+  width: 10%;
+  right: 30%;
+  opacity: 0;
+}
+
+.doktor-text4 #kleeblatt5 {
+  position: absolute;
+  width: 10%;
+  right: 10%;
+  opacity: 0;
+}
+
+/* Background Image 3*/
+
+.doktor-background3 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 0;
+
+}
+
+.doktor-background3 img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+/* Background Image 3 Ende */
+
+/* Textblock 5 */
+
+.doktor-text5 {
+  width: 100%;
+  height: auto;
+  padding: 100px 0 100px 0;
+  background: #8471C4;
+  margin-top: -5px;
+}
+
+.doktor-bund {
+  position: absolute;
+  right: 15%;
+}
+
+.doktor-bold8 {
+  height: auto;
+  width: 40%;
+  font-weight: bold;
+  margin: auto;
+}
+
+.doktor-light9 {
+  right: 0;
+  width: 40%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.doktor-bold9 {
+  height: auto;
+  width: 40%;
+  font-weight: bold;
+  margin: auto;
+}
+
+.doktor-light10 {
+  right: 0;
+  width: 40%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.doktor-bold10 {
+  height: auto;
+  width: 40%;
+  font-weight: bold;
+  margin: auto;
+}
+
+.doktor-light11 {
+  right: 0;
+  width: 40%;
+  margin: auto;
+  padding: 50px 0 100px 0;
+}
+
+.doktor-text5 img {
+  position: absolute;
+  width: 200px;
+  left: 10%;
+}
+
+/* Background Image 4 */
+
+.doktor-background4 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.doktor-puls {
+  position: absolute;
+  right: 15%;
+  top: 50%;
+}
+
+.doktor-background4 img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+
+/* Background Image 4 Ende */
+
+
+/* Textblock 6 */
+
+.doktor-text6 {
+  width: 100%;
+  height: auto;
+  padding: 100px 0 100px 0;
+  margin-top: -5px;
+}
+
+.doktor-verdienst {
+  position: absolute;
+  right: 15%;
+}
+
+.doktor-bold11 {
+  height: auto;
+  width: 40%;
+  font-weight: bold;
+  margin: auto;
+}
+
+.doktor-light12 {
+  right: 0;
+  width: 40%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.doktor-bold12 {
+  height: auto;
+  width: 40%;
+  font-weight: bold;
+  margin: auto;
+}
+
+.doktor-light13 {
+  right: 0;
+  width: 40%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.doktor-text6 img.doktor-herzoutline {
+  position: absolute;
+  width: 200px;
+  left: 12%;
+}
+
+.doktor-text6 img.doktor-herzgefüllt {
+  position: absolute;
+  width: 200px;
+  left: 10%;
+}
+
+/* Textblock 6 Ende */
+
+/* Background Image 5*/
+
+.doktor-background5 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.doktor-background5 img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
+/* Background Image 5 Ende */
+
+
+/* Textblock 5 */
+
+.doktor-text7 {
+  width: 100%;
+  height: auto;
+  padding: 100px 0 100px 0;
+  margin-top: -5px;
+  background: #8471C4;
+}
+
+.doktor-bold13 {
+  height: auto;
+  width: 40%;
+  font-weight: bold;
+  margin: auto;
+}
+
+.doktor-light14 {
+  right: 0;
+  width: 40%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.doktor-text7 img {
+  position: absolute;
+  width: 300px;
+  left: 10%;
+}
+
+/* Textblock 5 Ende */
+
+
+/* Background Image 6 Ende */
+
+.doktor-background6 {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.doktor-leben {
+  position: absolute;
+  left: 15%;
+  bottom: 100px;
+}
+
+.doktor-background6 img {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-size: cover;
+}
